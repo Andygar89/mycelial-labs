@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'activision-project',
+    title: 'cellial-labs',
     htmlAttrs: {
       lang: 'en',
     },
@@ -11,11 +11,10 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          "The world's first independent developer and distributor of video console games.",
+        content: 'Connecting the world together',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
