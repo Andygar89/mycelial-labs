@@ -5,11 +5,13 @@
     <div
       class="container items-center px-10 pt-16 pb-32 sm:pb-0 lg:px-0 sm:max-w-4xl"
     >
-      <div class="grid grid-cols-4 text-indigo-900 border border-gray-600">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+      <div class="p-4 rounded-md shadow-inner">
+        <div class="grid grid-cols-4 p-10 text-indigo-900 rounded-md shadow-md">
+          <div class="border border-gray-500 rounded-sm">1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+        </div>
       </div>
       <div>
         <h1
@@ -36,12 +38,4 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      modalOpen: false,
-    }
-  },
-}
-</script>
+<script></script>
